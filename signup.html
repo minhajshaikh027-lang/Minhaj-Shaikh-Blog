@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | Minhaj Shaikh Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">M</div>
+    <span class="eyebrow">JOIN THE JOURNAL</span>
+    <h1>Create your account</h1>
+    <p>Join the community and interact with stories.</p>
+    <form id="signup-form">
+      <label>Full name<input id="signup-name" type="text" placeholder="Your name" required></label>
+      <label>Email<input id="signup-email" type="email" placeholder="you@example.com" required></label>
+      <label>Password<div class="password-wrap"><input id="signup-password" type="password" placeholder="Minimum 6 characters" required><button type="button" class="show-pass" data-target="signup-password">Show</button></div></label>
+      <label>Confirm password<input id="signup-confirm" type="password" placeholder="Repeat password" required></label>
+      <button class="btn btn-primary full" type="submit">Create account</button>
+      <p id="signup-status" class="form-status"></p>
+    </form>
+    <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="js/script.js"></script><script src="js/auth.js"></script>
+</body>
+</html>

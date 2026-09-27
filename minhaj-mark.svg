@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="35" fill="#111113"/>
+<circle cx="400" cy="220" r="120" fill="#d9ff54"/>
+<text x="400" y="245" text-anchor="middle" font-family="Arial" font-size="110" font-weight="800" fill="#111113">M</text>
+<text x="400" y="390" text-anchor="middle" font-family="Arial" font-size="32" font-weight="700" letter-spacing="8" fill="#f4f4f2">MINHAJ BLOG</text>
+</svg>

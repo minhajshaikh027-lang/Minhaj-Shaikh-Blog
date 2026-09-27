@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Minhaj Shaikh Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">M</div>
+    <span class="eyebrow">WELCOME BACK</span>
+    <h1>Login to Minhaj Shaikh Blog</h1>
+    <p>Sign in to like posts, comment and save your activity.</p>
+    <form id="login-form">
+      <label>Email<input id="login-email" type="email" placeholder="you@example.com" required></label>
+      <label>Password<div class="password-wrap"><input id="login-password" type="password" placeholder="••••••••" required><button type="button" class="show-pass" data-target="login-password">Show</button></div></label>
+      <button class="btn btn-primary full" type="submit">Login</button>
+      <p id="login-status" class="form-status"></p>
+    </form>
+    <div class="auth-divider"><span>or</span></div>
+    <p class="auth-switch">New here? <a href="signup.html">Create an account</a></p>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="js/script.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
