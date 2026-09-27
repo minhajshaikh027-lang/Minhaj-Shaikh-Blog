@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Minhaj Shaikh Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page">
+  <section class="page-title">
+    <span class="eyebrow">THE JOURNAL</span>
+    <h1>Stories & experiences.</h1>
+    <p>College, vlogging, technology, gaming and everything in between.</p>
+  </section>
+
+  <section class="blog-toolbar">
+    <div class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Search stories..."></div>
+    <div id="category-filters" class="filters">
+      <button class="filter active" data-category="All">All</button>
+      <button class="filter" data-category="College">College</button>
+      <button class="filter" data-category="Vlogging">Vlogging</button>
+      <button class="filter" data-category="Technology">Technology</button>
+      <button class="filter" data-category="Gaming">Gaming</button>
+      <button class="filter" data-category="Life">Life</button>
+    </div>
+  </section>
+
+  <div id="all-posts" class="post-grid"></div>
+  <div id="no-results" class="empty-state hidden"><h3>No stories found.</h3><p>Try another keyword or category.</p></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/script.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
